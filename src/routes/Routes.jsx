@@ -22,7 +22,7 @@ const router = createBrowserRouter([
     {
       path: '/details/:id',
       element: <ProjectDetails></ProjectDetails>,
-      loader: ({params})=>fetch(`https://my-portfolio-server-nha4dj91r-ar-rafis-projects.vercel.app/projects/${params.id}`)
+      loader: ({params})=>fetch(`https://my-portfolio-server-delta-kohl.vercel.app/projects/${params.id}`)
 
     }
   ]);
