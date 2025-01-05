@@ -6,7 +6,7 @@ const useProjects = () => {
     const [projects, setProjects] = useState([])
 
     useEffect(()=>{
-        axios.get('http://localhost:5000/projects')
+        axios.get('https://my-portfolio-server-nha4dj91r-ar-rafis-projects.vercel.app/projects')
         .then(res => {
             console.log(res.data);
             setProjects(res.data)
