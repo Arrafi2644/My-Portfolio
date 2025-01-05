@@ -1,0 +1,45 @@
+[
+    {
+      "name": "Path Provider",
+      "image": "https://i.ibb.co.com/2gqH1G3/pathprovider-thumbnil.png",
+      "description": "Pathfinder is a career counseling platform designed to guide users in making informed professional decisions. With personalized advice, interactive tools, and expert resources, it ensures seamless navigation for users exploring career paths.",
+      "mainStack": ["Tailwind", "Daisy UI", "React", "React Router",  "Node.js", "Express js", "MongoDB", "Firebase"],
+      "project_category": "Development",
+      "details": {
+        "briefDescription": "Tech Haven is a modern e-commerce platform featuring user authentication, product filters, and a dynamic cart system.",
+        "liveLink": "https://pathfinder-89c88.web.app",
+        "githubLinkClient": "https://github.com/Arrafi2644/Path-Provider?tab=readme-ov-file",
+        "detailedDescription": "There was a challenge to implement swiper js.",
+        "improvements": "Currently, adding a review system and optimizing SEO for better visibility are in progress."
+      }
+    },
+    {
+      "name": "Performance Gear",
+      "image": "https://i.ibb.co.com/WWfvLHV/performance-gear-thumbnil.png",
+      "description": "This is an e-commerce website for sports accessories, where customers can browse, purchase, and review various sports products, including gear and apparel. The website is fully responsive, offers user authentication, and allows users to manage products they add to the platform. It also features various animations, dark/light theme toggle, and sorting functionality.",
+      "mainStack": ["Tailwind", "Daisy UI", "React", "React Router", "Node.js", "Express js", "MongoDB", "Firebase"],
+      "project_category": "Development",
+      "details": {
+        "liveLink": "https://performance-gear.web.app",
+        "githubLinkClient": "https://github.com/Arrafi2644/Performance-Gear-Client",
+        "githubLinkServer": "https://github.com/Arrafi2644/Performance-Gear-Server",
+        "detailedDescription": "The primary challenge in Performance Gear was to implement the product sorting.",
+        "improvements": "Future plans include integrating add customer review feature."
+      }
+    },
+    {
+      "name": "Learn Lang",
+      "image": "https://i.ibb.co.com/H2j5rFD/learn-Lang-thumbnil.png",
+      "description": "Language Exchange simplifies the process of finding, reviewing, and booking tutors across diverse languages and subjects. This platform promotes global learning opportunities and streamlines the tutor hiring process, providing a seamless experience for both students and tutors.",
+      "mainStack": ["Tailwind", "Daisy UI", "React", "React Router",  "Node.js", "Express js", "MongoDB", "Firebase"],
+      "project_category": "Development",
+      "details": {
+        "liveLink": "https://learn-lang-85203.web.app/",
+        "githubLinkClient": "https://github.com/Arrafi2644/LearnLang",
+        "githubLinkServer": "https://github.com/Arrafi2644/LearnLang-Server",
+        "detailedDescription": "One of the main challenges was implementing to show category wise tutor.",
+        "improvements": "Planned improvements include adding search functionality in Find tutor page"
+      }
+    }
+  ]
+  
