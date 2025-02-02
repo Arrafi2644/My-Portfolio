@@ -36,7 +36,7 @@ const Contact = () => {
                 <div className='border w-full md:w-2/5 p-12 rounded-md'>
                     <div>
                     <h2 className='text-3xl font-bold font-merriweather mb-2 text-center md:text-left'>Md Ar Rafi Fayez Joy</h2>
-                    <p className='text-center md:text-left'>I am available for freelance work. Connect with me via and call in to my account.</p>
+                    <p className='text-center md:text-left'>I am available for freelance work. Connect with me via email or email and call in to my phone number.</p>
                     </div>
 
                     <div className='mt-6'>
@@ -68,12 +68,7 @@ const Contact = () => {
                             </label>
                             <input name="from_name" type="text" placeholder="Your name" className="input input-bordered" required />
                         </div>
-                        {/* <div className="form-control">
-                            <label className="label">
-                                <span className="label-text">Phone Number</span>
-                            </label>
-                            <input name='number' type="text" placeholder="Phone number" className="input input-bordered" required />
-                        </div> */}
+
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Email</span>
