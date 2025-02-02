@@ -19,9 +19,9 @@ const Banner = () => {
                     </p>
                     <div className='flex gap-2 items-center justify-center lg:justify-start'>
 
-                        <a className="btn bg-primary hover:scale-95" target='_blank' href="https://drive.google.com/file/d/1de3JQ9J2LH67NjGWkN2vJRtKn06b3H3l/view?usp=sharing">View Resume</a>
+                        <a className="btn bg-primary text-gray-800 hover:scale-95" target='_blank' href="https://drive.google.com/file/d/1de3JQ9J2LH67NjGWkN2vJRtKn06b3H3l/view?usp=sharing">View Resume</a>
 
-                        <a className="btn bg-primary hover:scale-95" href={resume} download='Resume'>Download Resume</a>
+                        <a className="btn bg-primary text-gray-800 hover:scale-95" href={resume} download='Resume of Md. Ar Rafi Fayez Joy'>Download Resume</a>
 
                     </div>
                     <div className='mt-4'>

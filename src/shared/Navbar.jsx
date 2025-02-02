@@ -32,19 +32,19 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              className="menu menu-sm text-gray-800 dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
               {links}
             </ul>
           </div>
           <Link className=" font-bold text-primary text-xl pl-0">RAFI</Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">          
+          <ul className="menu menu-horizontal px-1 text-gray-800">          
           {links}
           </ul>
         </div>
         <div className="navbar-end">
-          <a href='#contact' className="btn bg-primary">Hire me</a>
+          <a href='#contact' className="btn bg-primary text-gray-800">Hire me</a>
         </div>
       </div>
     );
