@@ -2,7 +2,7 @@ import React from 'react';
 import bannerImg from '../../../assets/banner-person.png'
 import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import resume from '../../../../src/resume/Ar_Rafi_Fayez_Joy_cv-for-web-developer.pdf'
+import resume from '../../../../src/resume/Resume of Md. Ar Rafi Fayez Joy for frontend web developer.pdf'
 
 const Banner = () => {
     return (
@@ -21,7 +21,7 @@ const Banner = () => {
 
                         <a className="btn bg-primary hover:scale-95" target='_blank' href="https://drive.google.com/file/d/1de3JQ9J2LH67NjGWkN2vJRtKn06b3H3l/view?usp=sharing">View Resume</a>
 
-                        <a className="btn bg-primary hover:scale-95" href={resume} download='cv'>Download cv</a>
+                        <a className="btn bg-primary hover:scale-95" href={resume} download='Resume'>Download Resume</a>
 
                     </div>
                     <div className='mt-4'>
