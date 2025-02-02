@@ -18,9 +18,8 @@ const Banner = () => {
                         I specialize in creating modern, user-friendly, and responsive web applications with clean code and a passion for innovative design.
                     </p>
                     <div className='flex gap-2 items-center justify-center lg:justify-start'>
-                        {/* <Link to='https://app.enhancv.com/share/8a1888bb/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic'><button className="btn bg-primary hover:scale-95">View Resume</button></Link> */}
 
-                        <a href='https://app.enhancv.com/share/8a1888bb/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic' target='_blank' className="btn bg-primary hover:scale-95">View Resume</a>
+                        <a className="btn bg-primary hover:scale-95" target='_blank' href="https://drive.google.com/file/d/1de3JQ9J2LH67NjGWkN2vJRtKn06b3H3l/view?usp=sharing">View Resume</a>
 
                         <a className="btn bg-primary hover:scale-95" href={resume} download='cv'>Download cv</a>
 
