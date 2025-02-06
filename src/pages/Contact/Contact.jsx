@@ -33,7 +33,7 @@ const Contact = () => {
             <h2 className='text-3xl md:text-4xl font-bold font-merriweather text-center '>Contact With Me</h2>
 
             <div className='flex flex-col lg:flex-row gap-6 pt-10 font-medium'>
-                <div className='border w-full md:w-2/5 p-12 rounded-md'>
+                <div className='border w-full lg:w-2/5 p-12 rounded-md'>
                     <div>
                     <h2 className='text-3xl font-bold font-merriweather mb-2 text-center md:text-left'>Md Ar Rafi Fayez Joy</h2>
                     <p className='text-center md:text-left'>I am available for freelance projects, part-time collaborations, and full-time roles in frontend web development. Connect with me via email or email and call in to my phone number.</p>
@@ -60,7 +60,7 @@ const Contact = () => {
 
 
                 </div>
-                <div className='border w-full md:w-3/5 p-6 rounded-md'>
+                <div className='border w-full lg:w-3/5 p-6 rounded-md'>
                 <form ref={form} onSubmit={sendEmail} className="card-body grid grid-cols-1 md:grid-cols-2">
                     <div className="form-control">
                             <label className="label">
