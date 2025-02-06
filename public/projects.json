@@ -1,18 +1,5 @@
 [
-    {
-      "name": "Path Provider",
-      "image": "https://i.ibb.co.com/2gqH1G3/pathprovider-thumbnil.png",
-      "description": "Pathfinder is a career counseling platform designed to guide users in making informed professional decisions. With personalized advice, interactive tools, and expert resources, it ensures seamless navigation for users exploring career paths.",
-      "mainStack": ["Tailwind", "Daisy UI", "React", "React Router",  "Node.js", "Express js", "MongoDB", "Firebase"],
-      "project_category": "Development",
-      "details": {
-        "briefDescription": "Tech Haven is a modern e-commerce platform featuring user authentication, product filters, and a dynamic cart system.",
-        "liveLink": "https://pathfinder-89c88.web.app",
-        "githubLinkClient": "https://github.com/Arrafi2644/Path-Provider?tab=readme-ov-file",
-        "detailedDescription": "There was a challenge to implement swiper js.",
-        "improvements": "Currently, adding a review system and optimizing SEO for better visibility are in progress."
-      }
-    },
+ 
     {
       "name": "Performance Gear",
       "image": "https://i.ibb.co.com/WWfvLHV/performance-gear-thumbnil.png",
@@ -25,6 +12,20 @@
         "githubLinkServer": "https://github.com/Arrafi2644/Performance-Gear-Server",
         "detailedDescription": "The primary challenge in Performance Gear was to implement the product sorting.",
         "improvements": "Future plans include integrating add customer review feature."
+      }
+    },
+    {
+      "name": "VitalMeds",
+      "image": "https://i.ibb.co.com/LDkYQ5Hr/image.png",
+      "description": "VitalMeds is a feature-rich multi-vendor e-commerce platform designed for buying and selling medicines and healthcare products. Built using the MERN stack, the platform provides a seamless user experience, ensuring efficient management for admins, sellers, and users alike.",
+      "mainStack": ["Tailwind", "Daisy UI", "React", "React Router", "Node.js", "Express js", "MongoDB", "Firebase", "Stipe, React Hook Form"],
+      "project_category": "Development",
+      "details": {
+        "liveLink": "https://vitalmeds-2834f.web.app",
+        "githubLinkClient": "https://github.com/Arrafi2644/VitalMeds-Client?tab=readme-ov-file",
+        "githubLinkServer": "https://github.com/Arrafi2644/VitalMeds-Server",
+        "detailedDescription": "The primary challenge in VitalMeds was to implement redirect the user to the dashboard base on their role.",
+        "improvements": "Future plans include add more section and functionality to make this site most effective."
       }
     },
     {

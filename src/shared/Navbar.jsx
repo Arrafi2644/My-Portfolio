@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import logo from '../assets/logo2.png'
 
 const Navbar = () => {
     
 
     const links = <>
-    <li><a to='/'>Home</a></li>
+    <li><a>Home</a></li>
     <li><a href='#about'>About Me</a></li>
     <li><a href='#skill'>Skill</a></li>
     <li><a href='#portfolio'>Portfolio</a></li>
@@ -13,7 +14,8 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="navbar max-w-7xl w-11/12 mx-auto font-merriweather">
+      <div className='bg-background shadow-md sticky top-0 left-0 z-10'>
+          <div className="navbar max-w-7xl w-11/12 mx-auto font-merriweather ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -36,7 +38,9 @@ const Navbar = () => {
               {links}
             </ul>
           </div>
-          <Link className=" font-bold text-primary text-xl pl-0">RAFI</Link>
+          <Link className=" font-bold text-primary text-xl pl-0">
+          <img className='h-10 w-10 rounded-full object-cover' src={logo} alt="" />
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 text-gray-800">          
@@ -46,6 +50,7 @@ const Navbar = () => {
         <div className="navbar-end">
           <a href='#contact' className="btn bg-primary text-gray-800">Hire me</a>
         </div>
+      </div>
       </div>
     );
 };

@@ -6,7 +6,7 @@ import resume from '../../../../src/resume/Resume of Md. Ar Rafi Fayez Joy for f
 
 const Banner = () => {
     return (
-        <div className="hero min-h-screen font-open-sans">
+        <div id='banner' className="hero pt-10 font-open-sans">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <div className=' lg:w-1/3 mx-auto'>
                     <img src={bannerImg} alt="" />

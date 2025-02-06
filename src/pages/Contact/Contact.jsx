@@ -28,7 +28,7 @@ const Contact = () => {
     };
 
     return (
-        <div id='contact' className='my-4 md:my-8 lg:my-12 py-10 '>
+        <div id='contact' className='py-24 '>
             <p className='font-medium text-center text-primary mb-1'>Contact</p>
             <h2 className='text-3xl md:text-4xl font-bold font-merriweather text-center '>Contact With Me</h2>
 
@@ -36,13 +36,13 @@ const Contact = () => {
                 <div className='border w-full md:w-2/5 p-12 rounded-md'>
                     <div>
                     <h2 className='text-3xl font-bold font-merriweather mb-2 text-center md:text-left'>Md Ar Rafi Fayez Joy</h2>
-                    <p className='text-center md:text-left'>I am available for freelance work. Connect with me via email or email and call in to my phone number.</p>
+                    <p className='text-center md:text-left'>I am available for freelance projects, part-time collaborations, and full-time roles in frontend web development. Connect with me via email or email and call in to my phone number.</p>
                     </div>
 
                     <div className='mt-6'>
                         <Link  className='flex items-center gap-2 hover:underline hover:text-primary w-max'> <FaPhone></FaPhone> 01751166818</Link>
                         <Link className='flex items-center gap-2 hover:underline hover:text-primary w-max' ><FaWhatsapp></FaWhatsapp> 01751166818</Link>
-                        <Link className='flex items-center gap-2 hover:underline hover:text-primary w-max'><FaMailBulk></FaMailBulk> raffian2644@gmail.com</Link>
+                        <Link className='flex items-center gap-2 hover:underline hover:text-primary w-max'><FaMailBulk></FaMailBulk> arrafifayez12@gmail.com</Link>
 
 
                     </div>

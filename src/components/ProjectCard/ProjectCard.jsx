@@ -7,8 +7,8 @@ const ProjectCard = ({ project, projects }) => {
     const { name, image, project_category, _id } = project;
     return (
 <div className='shadow-md p-6 space-y-2 group'>
-  <div className=".inner w-full rounded-md h-auto overflow-hidden">
-  <img className='rounded-md' src={image} alt="" />
+  <div className=".inner w-full rounded-md h-auto overflow-hidden max-h-[400px]">
+  <img className='rounded-md w-full ' src={image} alt="" />
   </div>
   <h4 className='font-medium'>{project_category}</h4>
   <h3 className='title text-xl font-semibold'>{name}</h3>

@@ -7,7 +7,7 @@ const Projects = () => {
    const projects = useProjects()
 
     return (
-        <div id='portfolio' className='my-4 md:my-8 lg:my-12 py-10'>
+        <div id='portfolio' className='pt-24'>
             <p className='font-medium text-center text-primary mb-1'>Crafting Innovative Solutions</p>
             <h2 className='text-3xl md:text-4xl font-bold font-merriweather text-center '>Portfolio</h2>
 
