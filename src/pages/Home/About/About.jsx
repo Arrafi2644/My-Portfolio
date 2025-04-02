@@ -1,7 +1,15 @@
+import {easeIn, motion, MotionConfig } from 'framer-motion';
 import React from 'react';
 
 const About = () => {
     return (
+        <motion.div
+        initial = {{y:20, opacity:0}}
+        whileInView={{y:0, opacity: 1}}
+        transition={{duration: 0.8, ease: easeIn}}
+        >
+
+        
         <div id='about' className='pt-24'>
             <p className='font-medium text-center text-primary mb-1'>The Journey of a Passionate Developer</p>
             <h2 className='text-3xl md:text-4xl font-bold font-merriweather text-center '>About Me</h2>
@@ -33,6 +41,7 @@ const About = () => {
                 
              </div>
         </div>
+        </motion.div>
     );
 };
 

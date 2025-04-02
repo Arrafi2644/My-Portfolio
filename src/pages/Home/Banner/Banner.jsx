@@ -3,9 +3,16 @@ import bannerImg from '../../../assets/banner-person.png'
 import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import resume from '../../../../src/resume/Resume of Md. Ar Rafi Fayez Joy for frontend web developer.pdf'
+import {easeIn, motion} from 'framer-motion'
+import Typewriter from 'typewriter-effect';
 
 const Banner = () => {
     return (
+        <motion.div
+        initial = {{y:20, opacity:0}}
+        whileInView={{y:0, opacity: 1}}
+        transition={{duration: 0.8, ease: easeIn}}
+        >
         <div id='banner' className="hero pt-10 font-open-sans">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <div className=' lg:w-1/3 mx-auto'>
@@ -13,7 +20,11 @@ const Banner = () => {
                 </div>
                 <div className=' w-full lg:w-2/3 text-center lg:text-left'>
                     <p className='mb-3 font-open-sans uppercase'>Welcome to my world</p>
-                    <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-normal font-merriweather">Hi i'm <br /> <span className='text-primary'>Md. Ar Rafi Fayez Joy</span> <br /> a Frontend Developer.</h1>
+                    {/* <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-normal font-merriweather">Hi i'm <br /> <span className='text-primary'>Md. Ar Rafi Fayez Joy</span> <br /> a Frontend Developer.</h1> */}
+                    <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold font-merriweather">Hi i'm</h1>  <h1 className='text-primary text-3xl md:text-4xl lg:text-5xl font-bold font-merriweather'>Md. Ar Rafi Fayez Joy </h1> 
+                    <h1  className="text-3xl md:text-4xl lg:text-5xl font-bold font-merriweather">
+                    <Typewriter options={{strings: ['a Frontend Developer', 'UI/UX Designer'], autoStart:true, loop: true}}></Typewriter>
+                    </h1> 
                     <p className="py-6 font-open-sans">
                         I specialize in creating modern, user-friendly, and responsive web applications with clean code and a passion for innovative design.
                     </p>
@@ -39,6 +50,7 @@ const Banner = () => {
                 </div>
             </div>
         </div>
+        </motion.div>
     );
 };
 

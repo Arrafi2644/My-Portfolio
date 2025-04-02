@@ -9,9 +9,15 @@ import firebaseLogo from '../../../assets/skills/icons8-firebase-48.png'
 import nodeLogo from '../../../assets/skills/icons8-nodejs-48.png' 
 import expressLogo from '../../../assets/skills/icons8-express-js-50.png' 
 import mongoLogo from '../../../assets/skills/icons8-mongo-db-48.png' 
+import {easeIn, motion} from 'framer-motion'
 
 const Skill = () => {
     return (
+        <motion.div
+        initial = {{y:20, opacity:0}}
+        whileInView={{y:0, opacity: 1}}
+        transition={{duration: 0.8, ease: easeIn}}
+        >
         <div id='skill' className=' pt-24'>
             <p className='font-medium text-center text-primary mb-1'>1+ Years of Experience</p>
             <h2 className='text-3xl md:text-4xl font-bold font-merriweather text-center '>My Skills</h2>
@@ -153,6 +159,7 @@ const Skill = () => {
                 </div>
             </div>
         </div>
+        </motion.div>
     );
 };
 
