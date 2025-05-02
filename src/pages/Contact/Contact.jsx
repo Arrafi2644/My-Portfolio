@@ -4,9 +4,9 @@ import { FaFacebook, FaGithub, FaLinkedin, FaPhone, FaWhatsapp } from 'react-ico
 import { Link } from 'react-router-dom';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import toast from 'react-hot-toast';
 
 const Contact = () => {
-
 
     const form = useRef();
 
@@ -20,6 +20,8 @@ const Contact = () => {
             .then(
                 () => {
                     console.log('SUCCESS!');
+                    toast.success("Message sent successful. Thank you.")
+                    form.current.reset();
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
