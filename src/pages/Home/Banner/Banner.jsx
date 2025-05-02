@@ -16,7 +16,7 @@ const Banner = () => {
         <div id='banner' className="hero pt-10 font-open-sans">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <div className=' lg:w-1/3 mx-auto'>
-                    <img src={bannerImg} alt="" />
+                    <img className='rounded-lg w-full' src="https://i.ibb.co.com/PZQKhZCd/Rafi-Pro-1-removebg-preview.png" alt="" />
                 </div>
                 <div className=' w-full lg:w-2/3 text-center lg:text-left'>
                     <p className='mb-3 font-open-sans uppercase'>Welcome to my world</p>
