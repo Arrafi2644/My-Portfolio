@@ -34,7 +34,7 @@ const Contact = () => {
             initial={{ y: 20, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, ease: easeIn }}
-        >import {easeIn, motion} from 'framer-motion'
+        >
             <div id='contact' className='py-24 '>
                 <p className='font-medium text-center text-primary mb-1'>Contact</p>
                 <h2 className='text-3xl md:text-4xl font-bold font-merriweather text-center '>Contact With Me</h2>
@@ -47,8 +47,8 @@ const Contact = () => {
                         </div>
 
                         <div className='mt-6'>
-                            <Link className='flex items-center gap-2 hover:underline hover:text-primary w-max'> <FaPhone></FaPhone> 01751166818</Link>
-                            <Link className='flex items-center gap-2 hover:underline hover:text-primary w-max' ><FaWhatsapp></FaWhatsapp> 01751166818</Link>
+                            <Link className='flex items-center gap-2 hover:underline hover:text-primary w-max'> <FaPhone></FaPhone> +8801751166818</Link>
+                            <Link className='flex items-center gap-2 hover:underline hover:text-primary w-max' ><FaWhatsapp></FaWhatsapp> +8801751166818</Link>
                             <Link className='flex items-center gap-2 hover:underline hover:text-primary w-max'><FaMailBulk></FaMailBulk> arrafifayez12@gmail.com</Link>
 
 
