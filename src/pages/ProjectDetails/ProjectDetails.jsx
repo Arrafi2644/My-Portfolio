@@ -18,7 +18,7 @@ const ProjectDetails = () => {
 
 
     return (
-        <div className='relative my-10 max-w-7xl w-11/12 mx-auto p-10 border rounded-md'>
+        <div className='relative my-10 max-w-7xl w-11/12 mx-auto p-10 border rounded-md bg-black text-gray-100'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
                 <img className='rounded-md' src={image} alt="" />
                 <div className='space-y-2'>

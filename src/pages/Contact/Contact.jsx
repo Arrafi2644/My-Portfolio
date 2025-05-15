@@ -35,7 +35,7 @@ const Contact = () => {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.8, ease: easeIn }}
         >
-            <div id='contact' className='py-24 '>
+            <div id='contact' className='py-24 text-white '>
                 <p className='font-medium text-center text-primary mb-1'>Contact</p>
                 <h2 className='text-3xl md:text-4xl font-bold font-merriweather text-center '>Contact With Me</h2>
 
@@ -70,15 +70,15 @@ const Contact = () => {
                     <div className='border w-full lg:w-3/5 p-6 rounded-md'>
                         <form ref={form} onSubmit={sendEmail} className="card-body grid grid-cols-1 md:grid-cols-2">
                             <div className="form-control">
-                                <label className="label">
-                                    <span className="label-text">Your Name</span>
+                                <label className="label ">
+                                    <span className="label-text text-gray-100">Your Name</span>
                                 </label>
                                 <input name="from_name" type="text" placeholder="Your name" className="input input-bordered" required />
                             </div>
 
                             <div className="form-control">
                                 <label className="label">
-                                    <span className="label-text">Email</span>
+                                    <span className="label-text text-gray-100">Email</span>
                                 </label>
                                 <input name="from_email" type="email" placeholder="Your email" className="input input-bordered" required />
                             </div>
@@ -92,7 +92,7 @@ const Contact = () => {
 
                             <div className="form-control col-span-1 md:col-span-2">
                                 <label className="label">
-                                    <span className="label-text">Your Message</span>
+                                    <span className="label-text text-gray-100">Your Message</span>
                                 </label>
                                 {/* <input type="text"  className="input input-bordered" required /> */}
                                 <textarea name="message" className="textarea  resize-none border-gray-300
@@ -101,7 +101,7 @@ const Contact = () => {
 
 
                             <div className="form-control mt-6 col-span-1 md:col-span-2">
-                                <input className='btn bg-primary' type="submit" value="Send Message" />
+                                <input className='btn bg-primary text-gray-900' type="submit" value="Send Message" />
                             </div>
                         </form>
                     </div>

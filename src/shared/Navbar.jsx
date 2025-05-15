@@ -9,12 +9,12 @@ const Navbar = () => {
     <li><a>Home</a></li>
     <li><a href='#about'>About Me</a></li>
     <li><a href='#skill'>Skill</a></li>
-    <li><a href='#portfolio'>Portfolio</a></li>
+    <li><a href='#portfolio'>Projects</a></li>
     <li><a href='#contact'>Contact</a></li>
     </>
 
     return (
-      <div className='bg-background shadow-md sticky top-0 left-0 z-10'>
+      <div className='bg-gray-950 text-white shadow-md sticky top-0 left-0 z-10'>
           <div className="navbar max-w-7xl w-11/12 mx-auto font-merriweather ">
         <div className="navbar-start">
           <div className="dropdown">
@@ -34,16 +34,17 @@ const Navbar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm text-gray-800 dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              className="menu menu-sm text-gray-900 dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
               {links}
             </ul>
           </div>
           <Link className=" font-bold text-primary text-xl pl-0">
-          <img className='h-10 w-10 rounded-full object-cover' src={logo} alt="" />
+          {/* <img className='h-10 w-10 rounded-full object-cover' src={logo} alt="" /> */}
+          <span>Rafi</span>
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 text-gray-800">          
+          <ul className="menu menu-horizontal px-1 text-gray-50">          
           {links}
           </ul>
         </div>
