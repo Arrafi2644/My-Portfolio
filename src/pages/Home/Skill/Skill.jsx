@@ -18,7 +18,7 @@ const Skill = () => {
         whileInView={{y:0, opacity: 1}}
         transition={{duration: 0.8, ease: easeIn}}
         >
-        <div id='skill' className=' pt-24'>
+        <div id='skill' className=' pt-24 text-gray-100'>
             <p className='font-medium text-center text-primary mb-1'>1+ Years of Experience</p>
             <h2 className='text-3xl md:text-4xl font-bold font-merriweather text-center '>My Skills</h2>
 
@@ -150,7 +150,7 @@ const Skill = () => {
                     <h3>Node.js</h3>
                 </div>
                 <div className='flex flex-col items-center justify-center gap-2 w-full border p-3'>
-                    <img src={expressLogo} alt="" />
+                    <img className='w-12' src="https://i.ibb.co/8gbLHQrf/image-removebg-preview.png" alt="" />
                     <h3>Express.js</h3>
                 </div>
                 <div className='flex flex-col items-center justify-center gap-2 w-full border p-3'>

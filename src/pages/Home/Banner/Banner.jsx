@@ -13,7 +13,7 @@ const Banner = () => {
         whileInView={{y:0, opacity: 1}}
         transition={{duration: 0.8, ease: easeIn}}
         >
-        <div id='banner' className="hero pt-10 font-open-sans">
+        <div id='banner' className="hero pt-10 font-open-sans text-white">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <div className=' lg:w-1/3 mx-auto'>
                     <img className='rounded-lg w-full' src="https://i.ibb.co.com/PZQKhZCd/Rafi-Pro-1-removebg-preview.png" alt="" />

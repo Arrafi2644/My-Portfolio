@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const ProjectCard = ({ project, projects }) => {
     const { name, image, project_category, _id } = project;
     return (
-<div className='shadow-md p-6 space-y-2 group'>
+<div className='shadow-md p-6 space-y-2 group border rounded-md'>
   <div className=".inner w-full rounded-md h-auto overflow-hidden max-h-[400px]">
   <img className='rounded-md w-full ' src={image} alt="" />
   </div>
